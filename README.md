@@ -10,7 +10,7 @@ O objetivo deste projeto foi **automatizar a configuração de dois nós gerenci
 ### Seu trabalho para resolver?
 - Desenvolvimento de scripts ou playbooks Ansible para provisionar máquinas virtuais
 - Desenvolvimento de um playbook Ansible para configurar o servidor MySQL, incluindo a instalação do MySQL, criação de usuários e configurações de segurança.
-- Desenvolvimento de um playbook Ansible para copiar os artefatos da aplicação Java para o nó gerenciado apropriado, além de garantir que o serviço Java esteja em execução.
+- Desenvolvimento de um playbook Ansible para copiar os artefatos da aplicação Java para o nó gerenciado, além de garantir que o serviço Java esteja em execução.
 
 ### Qual foi o resultado?
 - Máquinas virtuais foram criadas com sucesso, proporcionando ambientes isolados para o MySQL e a aplicação Java.
@@ -30,7 +30,7 @@ Antes de você realizar o push deste repositório e testar, algumas etapas preci
 6. Para testar a API, altere o arquivo ``note.json`` com os valores que deseja inserir e realize seguinte requisição via API: ``curl -H "Content-Type: application.json" --data @note.json http://app01:8080/api/notes``
 
 
-# Ferramentas / Tecnologia
+# Ferramentas / Tecnologias
 - Ansible
 - Vagrant
 - Linux
